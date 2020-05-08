@@ -27,10 +27,14 @@ flutter:
 
   assets:
     - images/p3.jpg
+
   fonts:
-    - family: CreteRound
+    - family: Satisfy
       fonts:
-        - asset: fonts/CreteRound-Italic.ttf
+        - asset: fonts/Satisfy-Regular.ttf
+    - family: Source Sans Pro
+      fonts:
+            - asset: fonts/SourceSansPro-Regular.ttf
 
 
 

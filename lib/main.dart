@@ -21,12 +21,13 @@ class MyApp extends StatelessWidget {
               Text(
                 'Anita John',
                 style: TextStyle(
-                  fontFamily: 'CreteRound',
+                  fontFamily:'Satisfy',
                   fontSize:40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
               ),
+
 
             ],
           ),
