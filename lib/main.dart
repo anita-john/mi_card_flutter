@@ -27,8 +27,38 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-
-
+              Text(
+                'STUDENT',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.white,
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(10.0),
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0 ),
+                child: Row(
+                  children:<Widget>[
+                    Icon(Icons.phone,
+                      color: Colors.black,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text('+44 678 398 4958',
+                    style: TextStyle(
+                      color: Colors.black12,
+                      fontFamily:'Source Sans Pro',
+                      fontSize: 20.0,
+                    ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
           ),
