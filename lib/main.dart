@@ -41,48 +41,47 @@ class MyApp extends StatelessWidget {
 
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0 ),
-                child: Row(
-                  children:<Widget>[
-                    Icon(Icons.phone,
-                      color: Colors.black,
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text('+44 678 398 4958',
+                child: ListTile(
+                  leading: Icon(Icons.phone,
+                    color: Colors.black,
+                  ),
+                  title:
+                  Text('+44 678 398 4958',
                     style: TextStyle(
                       color: Colors.black12,
                       fontFamily:'Source Sans Pro',
                       fontSize: 20.0,
                     ),
-                    ),
-                  ],
+                  ),
+
+                  ),
                 ),
-              ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0,),
                 child: ListTile(
-                  leading:Icon(
+                  leading: Icon(
                     Icons.email,
-                    color: Colors.black,
-                  ),
+                    color: Colors.black,),
                   title: Text(
                     'Anitaj1@learn.cssd.ab.ca',
                     style: TextStyle(
-                      fontSize: 20.0,
-                      color: Colors.black12,
-                      fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0,
+                        color: Colors.black12,
+                        fontFamily: 'Source Sans Pro'
                     ),
                   ),
-
                 ),
               ),
-            ],
-          ),
-          ),
-        ),
-      );
+
+        ],
+          )),
+              ),
+        );
+
+
+
+
 
   }
 }
