@@ -14,29 +14,26 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: <Widget>[
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.white,
-                child: Text('Container 1'),
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/p3.jpg'),
               ),
-              Container(
-                width: 100.00,
-                height:100.0,
-                color:Colors.blue,
-                child: Text('Container 2'),
+              Text(
+                'Anita John',
+                style: TextStyle(
+                  fontFamily: 'CreteRound',
+                  fontSize:40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-              Container(
-                width: 100.00,
-                height:100.0,
-                color:Colors.red,
-                child: Text('Container 2'),
-              ),
+
             ],
-          ) ,
+          ),
+          ),
         ),
-      ),
-    );
+      );
+
   }
 }
 
