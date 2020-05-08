@@ -37,8 +37,8 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Container(
-                padding: EdgeInsets.all(10.0),
+              Card(
+
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0 ),
                 child: Row(
@@ -59,6 +59,25 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading:Icon(
+                    Icons.email,
+                    color: Colors.black,
+                  ),
+                  title: Text(
+                    'Anitaj1@learn.cssd.ab.ca',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      color: Colors.black12,
+                      fontFamily: 'Source Sans Pro',
+                    ),
+                  ),
+
+                ),
+              ),
             ],
           ),
           ),
@@ -67,4 +86,3 @@ class MyApp extends StatelessWidget {
 
   }
 }
-
